@@ -1,4 +1,4 @@
-# encrypt_pass
+# pass-gener
 
 ## 非对称加密-密码生成器
 
@@ -20,12 +20,12 @@
  
 
 ### for help:
-`encrypt_pass -h`
-> usage: encrypt_pass [mypassword] [length], eg: encrypt_pass abc123456 8
+`pass-gener -h`
+> usage: pass-gener [mypassword] [length], eg: pass-gener abc123456 8
 
 ### eg:
 ```shell
-s@m encrypt_pass % ./encrypt_pass_darwin aa123456 12
+s@m pass-gener % ./pass-gener_darwin aa123456 12
 input parameters: input password is aa123456, lenth is 12 
 
 MD5 sum into hex number:
